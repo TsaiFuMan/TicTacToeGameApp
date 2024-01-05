@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TicTacToeGameApp.MainPage">
+
+    <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="130" />
+            <RowDefinition Height="130" />
+            <RowDefinition Height="130" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130" />
+            <ColumnDefinition Width="130" />
+            <ColumnDefinition Width="130" />
+        </Grid.ColumnDefinitions>
+
+        <Frame Grid.Row="0"
+               Grid.Column="0"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn00"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="0"
+               Grid.Column="1"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn01"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="0"
+               Grid.Column="2"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn02"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="1"
+               Grid.Column="0"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn10"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="1"
+               Grid.Column="1"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn11"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="1"
+               Grid.Column="2"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn12"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="2"
+               Grid.Column="0"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn20"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="2"
+               Grid.Column="1"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn21"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        <Frame Grid.Row="2"
+               Grid.Column="2"
+               BorderColor="Black"
+               HasShadow="True">
+            <Button x:Name="btn22"
+                    Text=""
+                    Clicked="OnButtonClicked"
+                    WidthRequest="125"
+                    HeightRequest="125"/>
+        </Frame>
+        
+    </Grid>
+
+</ContentPage>
